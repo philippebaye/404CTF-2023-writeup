@@ -63,15 +63,14 @@ for i in range(25):
                     vecteur_chiffre = matrice_chiffrement @ vecteur_en_clair % 25
                     if (vecteur_chiffre == vecteurs_chiffres_a_retrouver[0]).all():
                         enregistrer_correspondance(vecteur_chiffre, vecteur_en_clair)
-                        
                     elif (vecteur_chiffre == vecteurs_chiffres_a_retrouver[1]).all():
                         enregistrer_correspondance(vecteur_chiffre, vecteur_en_clair)
                     elif (vecteur_chiffre == vecteurs_chiffres_a_retrouver[2]).all():
                         enregistrer_correspondance(vecteur_chiffre, vecteur_en_clair)
                     elif (vecteur_chiffre == vecteurs_chiffres_a_retrouver[3]).all():
                         enregistrer_correspondance(vecteur_chiffre, vecteur_en_clair)
-    print(f'{i=}')
-print(i,j,k,l,m)
+    #print(f'{i=}')
+#print(i,j,k,l,m)
 
 
 # ------------------------
