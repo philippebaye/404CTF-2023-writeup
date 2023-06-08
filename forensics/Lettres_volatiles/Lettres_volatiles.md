@@ -12,7 +12,7 @@ L'archive contient également un fichier `C311M1N1-PC-20230514-200525.raw` que l
 
 Il s'avère que le fichier est bien une prise d'emprunte mémoire lisible avec Volatility.
 
-On recherche d'abord les processus résisant en mémoire :
+On recherche d'abord les processus résidants en mémoire :
 
 ```bash
 $ python3 vol.py -f C311M1N1-PC-20230514-200525.raw windows.pstree
