@@ -24,7 +24,7 @@ if args.REMOTE:
   p = remote(host,port)
 else:
   host, port = "localhost", "4000"
-  p = process(exe.path)
+  p = remote(host,port)
   pass
 
 
