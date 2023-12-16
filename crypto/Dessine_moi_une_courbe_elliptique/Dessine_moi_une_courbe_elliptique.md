@@ -28,24 +28,25 @@ $$ y^{2} = x^{3} + a\cdot x + b \ (\bmod\ p) $$
 
 Pour les 2 points dont on a les coordonnées `(x, y)`, on a donc :
 
-$$ y^{2}_{1} = x^{3}_{1} + a\cdot x_{1} + b \ (\bmod\ p) $$
+$$ y_{1}^{2} = x_{1}^{3} + a\cdot x_{1} + b \ (\bmod\ p) $$
 
-$$ y^{2}_{2} = x^{3}_{2} + a\cdot x_{2} + b \ (\bmod\ p) $$
+$$ y_{2}^{2} = x_{2}^{3} + a\cdot x_{2} + b \ (\bmod\ p) $$
 
 Si on soustrait les 2 équations, on obtient :
 
-$$ (y^{2}_{1} - y^{2}_{2}) = (x^{3}_{1} - x^{3}_{2}) + a\cdot (x_{1} - x_{2}) \ (\bmod\ p) $$
+$$ (y_{1}^{2} - y_{2}^{2}) = (x_{1}^{3} - x_{2}^{3}) + a\cdot (x_{1} - x_{2}) \ (\bmod\ p) $$
 
 D'où :
 
-$$ [\ (y^{2}_{1} - y^{2}_{2}) - (x^{3}_{1} - x^{3}_{2})\ ] \cdot (x_{1} - x_{2})^{-1} = a \ (\bmod\ p) $$
+$$ [\ (y_{1}^{2} - y_{2}^{2}) - (x_{1}^{3} - x_{2}^{3})\ ] \cdot (x_{1} - x_{2})^{-1} = a \ (\bmod\ p) $$
 
 à condition que :
+
 $$ (x_{1} - x_{2})^{-1} \ existe <=> PGCD((x_{1} - x_{2}), p) = 1$$
 
 Une fois `a` en poche, il est facile de retrouver `b`, en utilisant les coordonnées d'un des points :
 
-$$ b = y^{2}_{1} - (x^{3}_{1} + a\cdot x_{1}) \ (\bmod\ p)$$
+$$ b = y_{1}^{2} - (x_{1}^{3} + a\cdot x_{1}) \ (\bmod\ p)$$
 
 ----
 

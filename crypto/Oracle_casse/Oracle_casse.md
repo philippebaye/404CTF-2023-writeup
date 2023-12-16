@@ -16,7 +16,7 @@ $$ Message = (Signature(Message))^{e} \ (\bmod\ n) $$
 
 Et :
 
-$$ Message\_clair = Signature(Message\_chiffré) \ (\bmod\ n) $$
+$$ Message\\_clair = Signature(Message\\_chiffré) \ (\bmod\ n) $$
 
 On teste donc le comportement de la machine en lui demandant de calculer la signature du message chiffré `ct` fourni au démarrage :
 

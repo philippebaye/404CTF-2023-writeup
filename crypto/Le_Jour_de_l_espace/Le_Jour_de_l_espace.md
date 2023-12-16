@@ -81,7 +81,7 @@ On peut représenter (i.e. encoder) les messages sous forme numérique. Pour cel
 
 On a donc pour chaque bloc de 5 caractères :
 
-$$ Bloc\_Chiffré = Matrice\_Chiffrement \cdot Bloc\_Clair $$
+$$ Bloc\\_Chiffré = Matrice\\_Chiffrement \cdot Bloc\\_Clair $$
 
 A partir des expérimentations réalisées avec les messages `aaaab`, `aaaba`, `aabaa`, `abaaa` et `baaaa`, on en déduit la matrice de chiffrement.
 

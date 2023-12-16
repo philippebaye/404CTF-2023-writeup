@@ -49,7 +49,7 @@ Par contre, on va utiliser le résultat du décalage obtenu pour le chiffrement 
 
 On a donc :
 
-$$ Donnée\_Chiffré = Matrice\_Chiffrement \cdot Donnée\_Clair + Constante $$
+$$ Donnée\\_Chiffré = Matrice\\_Chiffrement \cdot Donnée\\_Clair + Constante $$
 
 La détermination de la matrice de chiffrement ne pose pas de problème.
 
@@ -58,7 +58,7 @@ Une fois la matrice obtenue, on se servira esnuite du résultat directement dans
 
 Pour procéder au déchiffrement on applique la formule suivante :
 
-$$ Donnée\_Clair = Matrice\_Déchiffrement \cdot (Donnée\_Chiffrée - Constante) \ (\bmod\ 26) $$
+$$ Donnée\\_Clair = Matrice\\_Déchiffrement \cdot (Donnée\\_Chiffrée - Constante) \ (\bmod\ 26) $$
 
 L'algorithme utilisé est implémenté dans le script [`reponse-voris.py`](reponse-voris.py) :
 
